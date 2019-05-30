@@ -226,14 +226,17 @@ use PHPMailer\PHPMailer\PHPMailer;
                     <a href="https://www.getinge.com/br" target="_blank" rel="nofollow"><img src="img/getinge.png" alt="Getinge"></a>
                 </div>
                 <div class="brand_cards_grid">
-                    <a href="https://br.nihonkohden.com/" target="_blank" rel="nofollow"><img src="img/nihon.png" alt="Nihon Kohden"></a>
+                    <a href="http://www.masimo.com/" target="_blank" rel="nofollow"><img src="img/masimo.png" alt="Masimo"></a>
                 </div>
                 <div class="brand_cards_grid">
+                    <a href="https://br.nihonkohden.com/" target="_blank" rel="nofollow"><img src="img/nihon.png" alt="Nihon Kohden"></a>
+                </div>
+                <!-- <div class="brand_cards_grid">
                     <a href="https://opuspac.com/br/" target="_blank" rel="nofollow"><img src="img/opuspac.png" alt="Opuspac Hospital Automation"></a>
                 </div>
                 <div class="brand_cards_grid">
                     <a href="http://pulsartechnologies.com.br/" target="_blank" rel="nofollow"><img src="img/pulsar.png" alt="Pulsar Technologies"></a>
-                </div>
+                </div> -->
                 <div class="brand_cards_grid">
                     <a href="https://www.quinelato.com.br/" target="_blank" rel="nofollow"><img src="img/quinelato.png" alt="Quinelato Instrumentos Cirúrgicos"></a>
                 </div>
