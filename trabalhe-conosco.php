@@ -1,11 +1,11 @@
 <?php
-use PHPMailer\PHPMailer\PHPMailer;
+    use PHPMailer\PHPMailer\PHPMailer;
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="utf-8">
-    <title>Belfort Healthcare</title>
+    <title>Belfort Healthcare | Trabalhe Conosco</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Representação e Distribuição de Produtos Hospitalares."/>
     <meta name="robots" content="index, follow"/>
@@ -81,157 +81,85 @@ use PHPMailer\PHPMailer\PHPMailer;
     <header class="main_header container bg-white" id="home">
         <div class="content-no">
             <h1 class="mb_logo main_logo left fzero">
-                <a href="index.php" title="Belfort Healthcare">Belfort Healthcare
+                <a title="Belfort Healthcare" href="index.php">Belfort Healthcare
                 </a>
             </h1>
+            
+            <div class="mobile_action"></div>
 
             <ul class="main_nav right">
-                <li><a href="#home" title="">Home</a></li>
-                <li><a href="#about" title="Saiba um pouco sobre nós">Sobre Nós</a></li>
-                <li><a href="#objetivos" title="Nossos objetivos">Objetivos</a></li>
-                <li><a href="#servicos" title="Nossos serviços">Serviços</a></li>
-                <li><a href="linha-de-produtos.php" title="Conheça nossa linha de produtos">Produtos</a></li>
-                <li><a href="#contato" title="Entre em contato com a gente">Contato</a></li>
-                <li>
-                  <a href="trabalhe-conosco.php" title="Trabalhe Conosco" class="btn btn-small btn-green radius">
-                    Trabalhe Conosco
-                  </a>
-                </li>
+                <li><a href="index.php" title="">Home</a></li>
+                <li><a href="#trabalhe" title="">Trabalhe Conosco</a></li>
+                <li><a href="#contato" title="">Contato</a></li>
             </ul>
             
             <div class="clear"></div>
         </div>
     </header>
     <!-- Fim do Header -->
-    
-    <!-- INÍCIO DO CONTEÚDO -->
-    <!-- Bloco Slider -->
-    <section class="container section_slider bg-slider" style="margin-top:89px">
-        <div class="content-large">
-            <header class="articletitle">
-                <h1>Especializada em <br> SOLUÇÕES médico-hospitalar</h1>
+
+    <section class="container bloco bg-blue">
+        <div class="content-top">
+            <header class="sectitle" style="margin-top:105px;">
+                <h1 class="upper">Trabalhe Conosco</h1>
+                <p class="tagline">Somos movidos pela satisfação dos nossos clientes e 
+                  resultados e, para isso, precisamos de pessoas talentosas, 
+                  apaixonadas pelo que fazem e que querem ir cada vez mais longe.</p>
             </header>
-            <div class="clear"></div>
         </div>
-        
         <div class="clear"></div>
     </section>
-    <!-- Fim do Bloco Slider -->
 
-    <!-- <section class="flexbox" style="margin-top:89px; background:red">
-        <img src="../img/campanha-de-natal.jpg" alt="Feliz Natal e próspero Ano Novo">
-    </section> -->
-    
-    <!-- Bloco de Bem-Vindo -->
-    <section class="container bloco bg-white" id="about">
+    <section class="container" id="trabalhe">
         <div class="content-medium">
-            <header class="sectitle">
-                <h1 class="upper al-center">Quem <span>Somos</span></h1>
-                <p class="tagline al-center">Somos uma Empresa parceira e de confiança atuando, há mais de 10 anos, na área médico-hospitalar.</p>
-            </header>
-            
-            <div class="box box-middle flex_about">
-                <div class="grid-40 left flex_about_img">
-                    <img src="img/logo-belforthealthcare.png" alt="Websites Responsivos" title="Criação de Websites Responsivos em Manaus" />
+        <div class="flexbox flex_prod">
+                <div class="box-large al-right flex_prod_end_img">
+                    <img src="img/oportunidades.jpg" alt="Oportunidade" 
+                    title="Especialista de Produtos" />
                 </div>
+                <div class="box-large last flex_prod_desc">
+                  <header class="title">
+                    <h1>Especialista de Produtos</h1>
+                    <p class="tagline">Amazonas - Rondônia - Acre</p>
+                  </header>
+                  <h3>EXIGÊNCIAS</h3>
+                    <ul style="margin-bottom:30px">
+                      <li>Superior Completo (Área da Saúde)</li>
+                      <li>Veículo próprio</li>
+                      <li>Disponibilidade para viagens</li>
+                    </ul>
 
-                <div class="grid-50 right flex_about_desc">
-                    <p class="light al-just">A <b>BELFORT HEALTHCARE</b> está centrada no segmento de equipamentos médico-hospitalar, fornecendo produtos e serviços através de um sistema de garantia de qualidade, de acordo com a Legislação vigente para o setor.</p>
-                    <p class="light al-just">Investimentos permanentes são realizados na capacitação de nossos profissionais, a fim de proporcionar um serviço eficaz, com agilidade e a máxima segurança.</p>
-                    <p class="light al-just">Atuamos de acordo com nossos princípios morais, respeitando nossos valores e honrando nosso treinamento de lealdade, confiabilidade, profissionalismo e honestidade, junto aos nossos parceiros comerciais e clientes. A transparência é nosso lema!</p>
-                    <p class="light al-just m-bottom">Nosso objetivo maior é prestar um serviço de qualidade e confiabilidade nos hospitais e instituições de saúde a fim de proporcionar melhor segurança e satisfação por parte de nossos clientes.</p>
+                    <h3>FUNÇÃO</h3>
+                    <ul style="margin-bottom:30px">
+                      <li>Realizar visitas de atendimento a clientes</li>
+                      <li>Demonstrar equipamentos</li>
+                      <li>Acompanhar procedimentos médicos (UTI/CC)</li>
+                      <li>Participar de congressos e eventos para divulgação dos produtos</li>
+                      <li>Realizar treinamentos operacionais de equipamentos médicos/hospitalares</li>
+                    </ul>
 
-                    <h3>A Empresa</h3>
-                    <p class="light al-just">A BELFORT HEALTHCARE está sediada na cidade de Manaus. E atuamos como Representantes das mais diversas marcas no seguimento de equipamentos médicos em todo o Estado do Amazonas, como também nos Estados do Acre, Amapá, Pará, Rondônia e Roraima.</p>
+                    <h3>BENEFÍCIOS</h3>
+                    <ul style="margin-bottom:30px">
+                      <li>Salário compatível com a função (PJ)</li>
+                      <li>Comissão</li>
+                      <li>Bonificação por instalação</li>
+                      <li>Gastos de viagens</li>
+                    </ul>
+
+                    <p>Encaminha currículo para o e-mail <br>
+                    <a 
+                      href="mailto:vagas.especialista@belforthealthcare.com.br"
+                      class="tx-link"
+                    >
+                      vagas.especialista@belforthealthcare.com.br
+                    </a></p>
                 </div>
-
                 <div class="clear"></div>
             </div>
-            <div class="clear"></div>
-        </div>
-        <div class="clear"></div>
-    </section>
-    <!-- Fim do Bloco de Bem-Vindo -->
-
-    <!-- Bloco de Bem-Vindo -->
-    <section class="container bloco bg-about" id="objetivos">
-        <div class="content-medium">
-            <header class="sectitle">
-                <h1 class="upper al-center">Missão, Visão e Valores</h1>
-            </header>
             
-            <article class="cover_box box box-medium al-center">
-                <img src="css/boot/icons/icon-target.png" alt="Nossa Missão" title="Missão da empresa" />
-                <h3 class="light upper">Nossa Missão</h3>
-                <p class="light">Incentivar a qualidade de atendimento e a segurança para médico e paciente, por meio da disseminação de produtos de alta tecnologia e boa prestação de serviços. </p>
-            </article>
-
-            <article class="cover_box box box-medium al-center">
-                <img src="css/boot/icons/icon-vision.png" alt="Nossa Visão" title="Visão da empresa" />
-                <h3 class="light upper">Nossa Visão</h3>
-                <p class="light">Ser uma empresa de referência de apoio a hospitais da região.</p>
-            </article>
-
-            <article class="cover_box box box-medium al-center last">
-                <img src="css/boot/icons/icon-employees.png" alt="Nossos Valores" title="Valores da empresa" />
-                <h3 class="light upper">Nossos Valores</h3>
-                <p class="light">Valorizar quem faz a empresa, agir de forma correta, ênfase a vida, ética e compromisso com o resultado.</p>
-            </article>
-
-            <div class="clear"></div>
-        </div>
-        <div class="clear"></div>
-    </section>
-
-    <section class="container bloco bg-about" id="servicos">
-        <div class="content-medium">
-            <header class="sectitle">
-                <h1 class="upper al-center">Produtos e Serviços</h1>
-            </header>
-            
-            <article class="cover_box box box-small al-center">
-                <img src="css/boot/icons/icon-product.png" alt="Nossos Produtos" title="Nossos Produtos" />
-                <h3 class="light upper">Produtos</h3>
-                <p class="light">Dispomos de um acervo tecnológico e eficiente.</p>
-                <a href="linha-de-produtos.php" title="Linha de Produtos" class="btn btn-small btn-green radius"><i class="fas fa-boxes fa-lg"></i>Linha de Produtos</a>
-            </article>
-
-            <article class="cover_box box box-small al-center">
-                <img src="css/boot/icons/icon-handshake.png" alt="Vendas" title="Vendas" />
-                <h3 class="light upper">Vendas</h3>
-                <p class="light">Representamos e distribuímos produtos médicos e hospitalares das marcas descritas na próxima seção.</p>
-            </article>
-
-            <article class="cover_box box box-small al-center">
-                <img src="css/boot/icons/icon-brain.png" alt="Treinamentos" title="Treinamentos" />
-                <h3 class="light upper">Treinamentos</h3>
-                <p class="light">Oferecemos treinamentos, específicos dos nossos produtos junto aos clientes.</p>
-            </article>
-
-            <article class="cover_box box box-small al-center last">
-                <img src="css/boot/icons/icon-customer-support.png" alt="Assistência Técnica" title="Assistência Técnica" />
-                <h3 class="light upper">Assistência Técnica</h3>
-                <p class="light">Aos clientes que buscam assistência técnica, acessar o link abaixo.</p>
-                <a href="http://belforthealthcare.arkmeds.com/usuarios/conectar?next=/" target="_blank" title="Abrir Chamado" class="btn btn-small btn-green radius"><i class="far fa-life-ring fa-lg"></i>Abrir Chamado Técnico</a>
-            </article>
-
-            <div class="clear"></div>
-        </div>
-        <div class="clear"></div>
-    </section>
-
-    <section class="container bg-light" id="marcas">
-        <div class="content-normal">
-            <header class="title">
-                <h1>Nossas Marcas</h1>
-            </header>
-
-            <?php include "includes/brands.php"; ?>
-
             <div class="clear"></div>
         </div>
     </section>
-    <!-- FIM DA SESSÃO CLIENTES -->
 
     <!-- Bloco de Contato -->
     <article class="container bloco bg-form" id="contato">
@@ -244,7 +172,7 @@ use PHPMailer\PHPMailer\PHPMailer;
                 <form method="post" class="flex_form">
                     <fieldset class="box box-large flex_form_info">
                         <h3>INFORMAÇÕES DE CONTATO</h3>
-                        <p class="tagline">Rua do Comercio, 89 - Parque Dez de Novembro <br> Manaus-AM / CEP: 69054-000</p>
+                        <p class="tagline">Rua do Comercio, 89 - Parque Dez de Novembro <br> Manaus - AMCEP: 69054-000</p>
                         <p class="tagline">Tel: (92) 3346-9444</p>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.05237424912!2d-60.01060038462808!3d-3.080694797756627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c1a93fe59f011%3A0xdc70f984474867a2!2sBelfort+Healthcare!5e0!3m2!1spt-BR!2sbr!4v1535581710476" width="100%" height="315px" frameborder="0" style="border:5px solid #fff;" allowfullscreen></iframe>
                     </fieldset>
@@ -276,7 +204,7 @@ use PHPMailer\PHPMailer\PHPMailer;
                             $mail->Host = 'smtp.belforthealthcare.com.br';        // Specify main and backup SMTP servers
                             $mail->SMTPAuth = true;                               // Enable SMTP authentication
                             $mail->Username = 'contato@belforthealthcare.com.br'; // SMTP username
-                            $mail->Password = 'Belf@rt2019';                      // SMTP password
+                            $mail->Password = 'Belfort2018';                      // SMTP password
                             $mail->Port = 587;                                    // TCP port to connect to
 
                             $mail->SMTPOptions = array(
@@ -351,7 +279,7 @@ use PHPMailer\PHPMailer\PHPMailer;
             
             <div class="grid-50 right flex_footer_social" style="text-align:right;">
                 <ul class="social_nav">
-                    <li><a href="https://www.facebook.com/belforthealthcare/" target="_blank" rel="nofollow" title="Belfort Healthcare no Facebook"><i class="fab fa-facebook-square fa-lg"></i>/belforthealthcare</a></li>
+                    <li><a href="https://www.facebook.com/Belfort-Healthcare-1752876741648305/" target="_blank" rel="nofollow" title="Belfort Healthcare no Facebook"><i class="fab fa-facebook-square fa-lg"></i>/belforthealthcare</a></li>
                     <li><a href="https://www.instagram.com/belfort_healthcare/" target="_blank" rel="nofollow" title="Belfort Healthcare no Instagram"><i class="fab fa-instagram fa-lg"></i>@belforthealthcare</a></li>
                 </ul>
             </div>

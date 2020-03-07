@@ -206,30 +206,14 @@
         </div>
     </section>
 
-
     <section class="container bg-light" id="marcas">
         <div class="content-normal">
             <header class="title">
                 <h1>Nossas Marcas</h1>
             </header>
 
-            <div class="brand_cards">
-                <div class="brand_cards_grid">
-                    <a href="https://www.getinge.com/int/" target="_blank" rel="nofollow"><img src="img/getinge.png" alt="Getinge"></a>
-                </div>
-                <div class="brand_cards_grid">
-                    <a href="https://br.nihonkohden.com/" target="_blank" rel="nofollow"><img src="img/nihon.png" alt="Nihon Kohden"></a>
-                </div>
-                <div class="brand_cards_grid">
-                    <a href="https://opuspac.com/br/" target="_blank" rel="nofollow"><img src="img/opuspac.png" alt="Opuspac Hospital Automation"></a>
-                </div>
-                <div class="brand_cards_grid">
-                    <a href="http://pulsartechnologies.com.br/" target="_blank" rel="nofollow"><img src="img/pulsar.png" alt="Pulsar Technologies"></a>
-                </div>
-                <div class="brand_cards_grid">
-                    <a href="https://www.quinelato.com.br/" target="_blank" rel="nofollow"><img src="img/quinelato.png" alt="Quinelato Instrumentos Cirúrgicos"></a>
-                </div>
-            </div>
+            <?php include "includes/brands.php"; ?>
+
             <div class="clear"></div>
         </div>
     </section>
