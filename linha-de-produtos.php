@@ -92,7 +92,6 @@
                 <li><a href="#uti" title="">UTI</a></li>
                 <li><a href="#cirurgia" title="">Cirurgia</a></li>
                 <li><a href="#cme" title="">CME</a></li>
-                <li><a href="#farmacia" title="">Farmácia</a></li>
                 <li><a href="#contato" title="">Contato</a></li>
             </ul>
             
@@ -184,29 +183,7 @@
         </div>
     </section>
 
-    <section class="container" id="farmacia">
-        <div class="content-medium">
-            <div class="flexbox flex_prod_end">
-                <div class="box-large flex_prod_desc">
-                    <header class="title">
-                        <h1>Produtos para Farmácia</h1>
-                        <ul>
-                            <li>Automação da logística de medicamentos e materiais</li>
-                            <li>sistema de Unitarização</li>
-                        </ul>
-                    </header>    
-                </div>    
-                <div class="box-large last flex_prod_end_img">
-                    <img src="css/boot/icons/pills.png" alt="Produtos para UTI" title="Produtos para UTI" />
-                </div>
-                <div class="clear"></div>
-            </div>
-            
-            <div class="clear"></div>
-        </div>
-    </section>
-
-    <section class="container bg-light" id="marcas">
+    <section class="container bg-white" id="marcas">
         <div class="content-normal">
             <header class="title">
                 <h1>Nossas Marcas</h1>

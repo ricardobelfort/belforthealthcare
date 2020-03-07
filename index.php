@@ -220,7 +220,7 @@ use PHPMailer\PHPMailer\PHPMailer;
         <div class="clear"></div>
     </section>
 
-    <section class="container bg-light" id="marcas">
+    <section class="container bg-white" id="marcas">
         <div class="content-normal">
             <header class="title">
                 <h1>Nossas Marcas</h1>

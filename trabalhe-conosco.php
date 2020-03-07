@@ -120,7 +120,7 @@
                 <div class="box-large last flex_prod_desc">
                   <header class="title">
                     <h1>Especialista de Produtos</h1>
-                    <p class="tagline">Amazonas - Rondônia - Acre</p>
+                    <p class="tagline">Acre - Amapá - Amazonas - Pará - Rondônia - Roraima</p>
                   </header>
                   <h3>EXIGÊNCIAS</h3>
                     <ul style="margin-bottom:30px">
